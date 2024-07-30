@@ -1,9 +1,13 @@
-import Header from "./components/header/Header";
+// import Navbar from "../containers/Navbar/Navbar";
+import About from "./containers/About/About.jsx";
+
+import "./App.css";
 function App() {
   return (
-    <>
-      <Header />
-    </>
+    <div className="App">
+      {/* <Navbar /> */}
+      <About />
+    </div>
   );
 }
 
