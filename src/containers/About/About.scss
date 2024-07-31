@@ -1,10 +1,49 @@
-@use "../../utils/variables";
+@use "../../scss" as *;
 
-#socialImg {
-  height: 30px;
+.AboutContainer {
+  padding: 80px 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-#aboutInfoName {
-  color: variables.$font-color-gray;
-  font-size: 22px;
+.AboutInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0px;
+  gap: 4px;
+  #aboutInfoName {
+    font-size: 22px;
+  }
+  #aboutOccupation {
+    font-size: 18px;
+  }
+  #aboutAdditionalText {
+    font-size: 12px;
+    color: $font-color-gray;
+  }
+  #aboutJobInfo {
+    font-size: 14px;
+    a {
+      text-decoration: none;
+      color: $font-color-blue;
+    }
+  }
+}
+
+.AboutText {
+  width: 100%;
+  text-align: center;
+  #aboutDescriptionText {
+    font-size: 14px;
+    color: $font-color-gray;
+    width: 100%;
+  }
+}
+
+#socialMediaIcon {
+  height: 30px;
 }
