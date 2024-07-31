@@ -1,1 +1,1 @@
-{"version":3,"sources":["About.scss","About.css"],"names":[],"mappings":"AAAA;EACE,YAAA;ACCF","file":"About.css"}
+{"version":3,"sources":["About.scss","About.css","../../utils/_variables.scss"],"names":[],"mappings":"AAEA;EACE,YAAA;ACDF;;ADIA;EACE,cEJgB;EFKhB,eAAA;ACDF","file":"About.css"}
