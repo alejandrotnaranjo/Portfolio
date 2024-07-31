@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "OpenSauceRegular";
+  src: url("./assets/fonts/open-sauce/OpenSauceOne-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
+  font-family: "OpenSauceRegular";
 }/*# sourceMappingURL=index.css.map */

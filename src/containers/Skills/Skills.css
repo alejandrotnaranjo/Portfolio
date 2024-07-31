@@ -1,0 +1,22 @@
+.SkillsSectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.SkillsSectionContainer #skillsSectionTitle {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 30px 0 0 0;
+}
+.SkillsSectionContainer .SkillsItemContainer {
+  padding: 15px;
+  border: 1px solid rgba(224, 224, 224, 0.4235294118);
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px 25px;
+}
+.SkillsSectionContainer .SkillsItemContainer .SkillsItemText {
+  font-size: 12px;
+}/*# sourceMappingURL=Skills.css.map */

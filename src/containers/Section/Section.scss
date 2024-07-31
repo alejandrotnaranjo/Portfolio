@@ -1,0 +1,7 @@
+@use "../../scss" as *;
+
+.SectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,14 @@
+@use "../../scss" as *;
+
+.ProjectSectionContainer {
+  text-align: center;
+  #projectSectionTitle {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #sectionDetailText {
+    color: $font-color-light-gray;
+    font-size: 12px;
+    margin: 15px 0px 10px 0px;
+  }
+}

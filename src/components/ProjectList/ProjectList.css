@@ -1,0 +1,12 @@
+.ProjectSectionContainer {
+  text-align: center;
+}
+.ProjectSectionContainer #projectSectionTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+.ProjectSectionContainer #sectionDetailText {
+  color: #cecece;
+  font-size: 12px;
+  margin: 15px 0px 10px 0px;
+}/*# sourceMappingURL=ProjectList.css.map */

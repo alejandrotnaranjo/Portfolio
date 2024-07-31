@@ -10,19 +10,19 @@ function About() {
   const LinkedInProfileURL = "https://www.linkedin.com/in/alejandrotnaranjo/";
   return (
     <div className="AboutContainer">
-      <div className="AboutInfo">
+      <div className="AboutInfoContainer">
         <p id="aboutInfoName">Alejandro T. Naranjo,</p>
         <p id="aboutOccupation">fullstack developer {occupationTextSign}</p>
         <p id="aboutAdditionalText">web and mobile</p>
         <p id="aboutJobInfo">
           actually working at <a href={GeniusSportsURL}>Genius Sports</a>
         </p>
-        <div>
+        <div className="AboutLinks">
           <Link href={LinkedInProfileURL} src={LinkedInLogo} alt="#" />
           <Link href={GitHubProfileURL} src={GitHubLogo} alt="#" />
         </div>
       </div>
-      <div className="AboutText">
+      <div className="AboutTextContainer">
         <p id="aboutDescriptionText">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa minima
           placeat unde error voluptate minus consectetur asperiores nemo, ullam

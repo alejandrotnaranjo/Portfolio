@@ -1,4 +1,6 @@
+@use "./scss" as *;
+
 .App {
-  background-color: rgb(248, 248, 248);
-  height: 100vh;
+  height: 100%;
+  background: linear-gradient($background-color-gradient);
 }

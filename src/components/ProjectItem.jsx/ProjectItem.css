@@ -1,0 +1,30 @@
+.ProjectItemContainer {
+  padding: 15px 25px;
+  margin: 10px;
+  border: 1px solid rgba(224, 224, 224, 0.4235294118);
+  text-align: left;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease 0s;
+}
+.ProjectItemContainer:hover {
+  transform: scale(1.005);
+  background-color: #ffffff;
+  box-shadow: 0 12px 16px 0 rgba(219, 219, 219, 0.24);
+}
+.ProjectItemContainer .ProjectItemTop {
+  display: flex;
+  justify-content: space-between;
+}
+.ProjectItemContainer .ProjectItemTop #projectTitle {
+  font-size: 13px;
+}
+.ProjectItemContainer #projectDate,
+.ProjectItemContainer #projectDescription {
+  color: #a6a6a6;
+  font-size: 12px;
+  text-align: left;
+}/*# sourceMappingURL=ProjectItem.css.map */
