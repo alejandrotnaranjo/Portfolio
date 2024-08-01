@@ -1,1 +1,1 @@
-{"version":3,"sources":["ProjectList.scss","ProjectList.css","../../scss/_variables.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;ACDF;ADEE;EACE,eAAA;EACA,iBAAA;ACAJ;ADEE;EACE,cELoB;EFMpB,eAAA;EACA,yBAAA;ACAJ","file":"ProjectList.css"}
+{"version":3,"sources":["ProjectList.scss","ProjectList.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;ACCF;ADAE;EACE,eAAA;EACA,iBAAA;ACEJ;ADAE;EACE,cAAA;EACA,eAAA;EACA,cAAA;ACEJ","file":"ProjectList.css"}

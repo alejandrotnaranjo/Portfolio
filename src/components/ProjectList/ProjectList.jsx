@@ -1,4 +1,4 @@
-import ProjectItem from "../../components/ProjectItem.jsx/ProjectItem";
+import ProjectItem from "../../components/ProjectItem/ProjectItem";
 import "./ProjectList.css";
 
 const ProjectList = ({ projects, title }) => (

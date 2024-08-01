@@ -1,7 +1,7 @@
 .ProjectItemContainer {
   padding: 15px 25px;
   margin: 10px;
-  border: 1px solid rgba(224, 224, 224, 0.4235294118);
+  border: 1px solid #f0f0f0;
   text-align: left;
   border-radius: 30px;
   display: flex;

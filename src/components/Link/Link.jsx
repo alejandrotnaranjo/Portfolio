@@ -1,7 +1,7 @@
-function Link({ href, src }) {
+function Link({ href, page }) {
   return (
     <a href={href} target="_blank">
-      <img id="socialMediaIcon" src={src} alt="" />
+      {page}
     </a>
   );
 }

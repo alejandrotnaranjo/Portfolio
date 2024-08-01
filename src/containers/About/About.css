@@ -1,50 +1,43 @@
 .AboutContainer {
-  padding: 80px 20px 40px 20px;
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.AboutInfoContainer {
-  width: 100%;
+  padding: 40px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px 0px;
   gap: 6px;
 }
-.AboutInfoContainer #aboutInfoName,
-.AboutInfoContainer #aboutOccupation,
-.AboutInfoContainer #aboutJobInfo a {
+.AboutContainer #aboutInfoName,
+.AboutContainer #aboutOccupation,
+.AboutContainer #aboutJobInfo a {
   font-weight: bold;
 }
-.AboutInfoContainer #aboutInfoName {
+.AboutContainer #aboutInfoName {
   font-size: 18px;
 }
-.AboutInfoContainer #aboutOccupation {
+.AboutContainer #aboutOccupation {
   font-size: 14px;
 }
-.AboutInfoContainer #aboutAdditionalText {
+.AboutContainer #aboutAdditionalText {
   font-size: 12px;
   color: #a6a6a6;
 }
-.AboutInfoContainer #aboutJobInfo {
+.AboutContainer #aboutJobInfo {
   font-size: 12px;
 }
-.AboutInfoContainer #aboutJobInfo a {
+.AboutContainer #aboutJobInfo a {
   text-decoration: none;
   color: #003f92;
 }
 
 .AboutLinks {
-  margin-top: 10px;
+  margin-top: 30px;
   display: flex;
-  gap: 15px;
+  gap: 35px;
 }
-.AboutLinks #socialMediaIcon {
-  height: 30px;
-  border-radius: 5px;
+.AboutLinks a {
+  text-decoration: none;
+  color: #a6a6a6;
+  font-weight: bold;
 }
 
 .AboutTextContainer {
