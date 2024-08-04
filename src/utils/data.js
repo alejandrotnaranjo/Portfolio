@@ -44,5 +44,8 @@ export const PROJECTS = [
     description:
       "my first responsive React project using fetch, hooks, PokeAPI and more...",
     date: "mar. 2023",
+    videoURL: "../../videos/Pokedex-WebApp-Video.mp4",
+    repositoryURL:
+      "https://github.com/alejandrotnaranjo/pokedex-web/tree/main/src",
   },
 ];
