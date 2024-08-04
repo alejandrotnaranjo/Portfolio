@@ -17,6 +17,9 @@ export const PROJECTS = [
     description:
       "realtime chatting app made with React Native, Firebase, user authentication and more...",
     date: "jun. 2023",
+    videoURL: "../../videos/Realtime-Chatting-App-Video.mp4",
+    repositoryURL:
+      "https://github.com/alejandrotnaranjo/realtime-chatting-app/tree/main/src",
   },
   {
     id: 3,
@@ -25,6 +28,9 @@ export const PROJECTS = [
     description:
       "my first React Native project using Expo, PokeAPI, hooks and more...",
     date: "feb. 2023",
+    videoURL: "../../videos/Pokedex-App-Video.mp4",
+    repositoryURL:
+      "https://github.com/alejandrotnaranjo/Pokedex-App/tree/main/src",
   },
   {
     id: 4,

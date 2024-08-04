@@ -19,9 +19,9 @@ function About() {
         </a>
       </p>
       <div className="AboutLinks">
-        <Link href={ReadURL} page="about" alt="#" />
-        <Link href={LinkedInProfileURL} page="linkedin" alt="#" />
-        <Link href={GitHubProfileURL} page="github" alt="#" />
+        <Link href={ReadURL} page="about" alt="about-link" />
+        <Link href={LinkedInProfileURL} page="linkedin" alt="linkedin-link" />
+        <Link href={GitHubProfileURL} page="github" alt="github-link" />
       </div>
     </div>
   );

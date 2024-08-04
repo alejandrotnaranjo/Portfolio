@@ -26,7 +26,13 @@ function ProjectItem({
         onRequestClose={() => setVisible(false)}
         isOpen={visible}
       >
-        <video loop className="VideoContainer" autoPlay src={projectVideoURL} />
+        <video
+          loop
+          className="VideoContainer"
+          autoPlay
+          src={projectVideoURL}
+          playsInline={true}
+        />
         <button className="ModalCloseButton" onClick={() => setVisible(false)}>
           &times;
         </button>
@@ -44,7 +50,7 @@ function ProjectItem({
 
 const modalStyles = {
   overlay: {
-    backgroundColor: "#000000c4",
+    backgroundColor: "#000000d1",
   },
   content: {
     alignItems: "center",
