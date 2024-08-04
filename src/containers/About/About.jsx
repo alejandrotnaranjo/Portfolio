@@ -13,7 +13,10 @@ function About() {
       <p id="aboutOccupation">fullstack developer {occupationTextSign}</p>
       <p id="aboutAdditionalText">web and mobile</p>
       <p id="aboutJobInfo">
-        actually working at <a href={GeniusSportsURL}>Genius Sports</a>
+        actually working at{" "}
+        <a target="_blank" href={GeniusSportsURL}>
+          Genius Sports
+        </a>
       </p>
       <div className="AboutLinks">
         <Link href={ReadURL} page="about" alt="#" />

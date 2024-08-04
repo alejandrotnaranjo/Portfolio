@@ -11,6 +11,7 @@
   gap: 10px;
   cursor: pointer;
   transition: all 0.8s ease 0s;
+  background-color: transparent;
   &:hover {
     transform: scale(1.005);
     background-color: #ffffff;
@@ -19,6 +20,7 @@
   .ProjectItemTop {
     display: flex;
     justify-content: space-between;
+    width: 100%;
     #projectTitle {
       font-size: 13px;
     }
@@ -29,4 +31,29 @@
     font-size: 12px;
     text-align: left;
   }
+}
+
+.ModalCloseButton {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  background-color: #00000053;
+  border: none;
+  font-weight: 200;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50px;
+}
+
+.VideoContainer {
+  height: 82%;
+  border-radius: 35px;
+  filter: drop-shadow(0 0 0.6rem rgb(143, 143, 143));
 }

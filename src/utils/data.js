@@ -6,6 +6,9 @@ export const PROJECTS = [
     description:
       "grocery mobile app (+40 screens) built with React Native using Firebase, user authentication and more...",
     date: "feb. 2023",
+    videoURL: "../../videos/BigCart-GroceryApp-Video.mp4",
+    repositoryURL:
+      "https://github.com/alejandrotnaranjo/BigCart-GroceryApp/tree/main/src",
   },
   {
     id: 2,
@@ -30,6 +33,9 @@ export const PROJECTS = [
     description:
       "responsive web portfolio made with React using VIte and Firebase.",
     date: "jun. 2024",
+    videoURL: "../../videos/Portfolio01-WebApp-Video.mp4",
+    repositoryURL:
+      "https://github.com/alejandrotnaranjo/paulaanaranjom-web-portfolio/tree/main/src",
   },
   {
     id: 5,

@@ -48,4 +48,11 @@
   font-size: 14px;
   color: #a6a6a6;
   width: 100%;
+}
+
+.RepositoryURL {
+  text-decoration: none;
+  margin-top: 10%;
+  color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=About.css.map */
