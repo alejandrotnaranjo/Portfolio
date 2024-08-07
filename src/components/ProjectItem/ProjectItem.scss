@@ -1,6 +1,7 @@
 @use "../../scss" as *;
 
 .ProjectItemContainer {
+  text-decoration: none;
   padding: 15px 25px;
   margin: 10px;
   border: 1px solid $border-color-light-gray;
@@ -23,6 +24,10 @@
     width: 100%;
     #projectTitle {
       font-size: 13px;
+    }
+    #projectTitle,
+    #projectDate {
+      color: #000000;
     }
   }
   #projectDate,

@@ -1,3 +1,5 @@
+import bigCartScreen from "../assets/images/bigcart-screens.jpg";
+
 export const PROJECTS = [
   {
     id: 1,
@@ -9,6 +11,7 @@ export const PROJECTS = [
     videoURL: "../../videos/BigCart-GroceryApp-Video.mp4",
     repositoryURL:
       "https://github.com/alejandrotnaranjo/BigCart-GroceryApp/tree/main/src",
+    image: { bigCartScreen },
   },
   {
     id: 2,

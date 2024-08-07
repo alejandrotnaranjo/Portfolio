@@ -1,4 +1,5 @@
 .ProjectItemContainer {
+  text-decoration: none;
   padding: 15px 25px;
   margin: 10px;
   border: 1px solid #f0f0f0;
@@ -23,6 +24,10 @@
 }
 .ProjectItemContainer .ProjectItemTop #projectTitle {
   font-size: 13px;
+}
+.ProjectItemContainer .ProjectItemTop #projectTitle,
+.ProjectItemContainer .ProjectItemTop #projectDate {
+  color: #000000;
 }
 .ProjectItemContainer #projectDate,
 .ProjectItemContainer #projectDescription {

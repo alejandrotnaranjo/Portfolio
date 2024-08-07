@@ -1,7 +1,13 @@
 import ProjectItem from "../../components/ProjectItem/ProjectItem";
 import "./ProjectList.css";
 
-function ProjectList({ projects, title }) {
+function ProjectList({
+  projects,
+  title,
+  className,
+  handleMouseEnter,
+  handleMouseLeave,
+}) {
   return (
     <div className="ProjectSectionContainer">
       <p id="projectSectionTitle">{title}</p>
@@ -9,11 +15,15 @@ function ProjectList({ projects, title }) {
       {projects.map((project) => (
         <ProjectItem
           key={project.id}
+          onMouseEnter={() => handleMouseEnter(project.image)}
+          onMouseLeave={handleMouseLeave}
           projectTitle={project.title}
           projectDate={project.date}
           projectDescription={project.description}
           projectVideoURL={project.videoURL}
           projectRepositoryURL={project.repositoryURL}
+          href={project.repositoryURL}
+          image={project.image}
         />
       ))}
     </div>

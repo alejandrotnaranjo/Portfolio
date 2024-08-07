@@ -8,11 +8,22 @@ function ProjectItem({
   projectDescription,
   projectVideoURL,
   projectRepositoryURL,
+  onMouseEnter,
+  onMouseLeave,
+  href,
+  image,
 }) {
   const [visible, setVisible] = useState(false);
   return (
-    <>
-      <button className="ProjectItemContainer" onClick={() => setVisible(true)}>
+    <div className="ProjectItemMainContainer">
+      <a
+        href={href}
+        target="_blank"
+        className="ProjectItemContainer"
+        onClick={() => setVisible(true)}
+        onMouseEnter={() => onMouseEnter(image)}
+        onMouseLeave={onMouseLeave}
+      >
         <div className="ProjectItemTop">
           <p id="projectTitle">{projectTitle}</p>
           <p id="projectDate">{projectDate}</p>
@@ -20,7 +31,7 @@ function ProjectItem({
         <div className="ProjectItemBottom">
           <p id="projectDescription">{projectDescription}</p>
         </div>
-      </button>
+      </a>
       <Modal
         style={modalStyles}
         onRequestClose={() => setVisible(false)}
@@ -44,7 +55,7 @@ function ProjectItem({
           go to source code repository
         </a>
       </Modal>
-    </>
+    </div>
   );
 }
 
